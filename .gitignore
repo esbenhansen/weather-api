@@ -102,3 +102,28 @@ dist
 
 # TernJS port file
 .tern-port
+out/hello.js
+out/hello.js.map
+out/server.js
+out/server.js.map
+out/client/Forecast.js
+out/client/Forecast.js.map
+out/client/WeatherBase.js
+out/client/WeatherBase.js.map
+out/client/WeatherClient.js
+out/client/WeatherClient.js.map
+out/controller/hello.js
+out/controller/hello.js.map
+out/routes/gets.js
+out/routes/gets.js.map
+out/source/server.js
+out/source/server.js.map
+out/source/client/Forecast.js
+out/source/client/Forecast.js.map
+out/source/client/WeatherBase.js
+out/source/client/WeatherBase.js.map
+out/source/client/WeatherClient.js
+out/source/client/WeatherClient.js.map
+out/source/controller/hello.js
+out/source/controller/hello.js.map
+**/*.js
