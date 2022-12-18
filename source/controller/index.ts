@@ -16,7 +16,7 @@ export const getTemperaturesForNextDays: RequestHandler<ParamType, unknown, unkn
 
 export const getSummary: RequestHandler<unknown, unknown, unknown, QueryTypes> = async (req, res) => {
   const { unit } = req.query;
-  const temperature = getKelvin(req.query.temperature, unit);
+  const temperature = getKelvin(Number(req.query.temperature), unit);
   const cityList = getCities(req.query.cities);
   const forecastForCities = await getForecastForCities(cityList);
   const cities = forecastForCities

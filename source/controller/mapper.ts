@@ -19,7 +19,7 @@ export const getCities = (cities: string): string[] => {
   return cityList;
 };
 
-export const getKelvin = (temperature: string, unit: TemperatureUnit): number => {
+export const getKelvin = (temperature: number, unit: TemperatureUnit): number => {
   const temp = Number(temperature);
 
   if (unit === 'celsius') {
