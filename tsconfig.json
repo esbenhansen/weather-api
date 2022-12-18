@@ -1,17 +1,10 @@
 {
+  "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2018",
-    "lib": [
-      "es2018"
-    ],
+    "target": "es5",
     "module": "commonjs",
     "outDir": "out",
-    "sourceRoot": "source",
     "sourceMap": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "typeRoots": ["./node_modules/@types"],
-    "esModuleInterop": true,
   },
   "exclude": [ 
     "node_modules"

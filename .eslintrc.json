@@ -1,0 +1,19 @@
+{
+    "env": {
+        "es6": true,
+        "commonjs": true
+    },
+    "extends": [
+      "airbnb-base",
+      "airbnb-typescript/base"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "project": ["./tsconfig.json"]
+    },
+    "rules": {
+      "max-len": "off"
+    }
+}
